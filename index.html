@@ -1,0 +1,1121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dist/all.min.css" />
+    <link href="dist/output.css" rel="stylesheet" />
+    <link type="image/png" href="images/head.png" rel="icon" />
+    <title>Burger</title>
+  </head>
+  <body>
+    <header class="relative z-10">
+      <div
+        class="container max-w-6xl z-10 flex justify-between items-center bg-black"
+      >
+        <a href="#" class="uppercase p-3 text-2xl font-oswald"
+          >bur<span class="text-secondaryColor">ger</span>
+        </a>
+        <nav>
+          <ul
+            class="w-5/6 -z-10 absolute -top-52 left-1/2 -translate-x-2/4 border-b border-b-secondaryColor text-center bg-black capitalize transition-all duration-500 md:translate-x-0 md:border-none md:w-auto md:static md:flex items-center"
+          >
+            <li>
+              <a
+                href="#home"
+                class="inline-block p-2 w-full md:w-auto md:ms-4 md:p-3 active hover:text-secondaryColor"
+                >home</a
+              >
+            </li>
+            <li>
+              <a
+                href="#about-us"
+                class="inline-block p-2 w-full md:w-auto md:ms-4 md:p-3 hover:text-secondaryColor"
+                >about us</a
+              >
+            </li>
+            <li>
+              <a
+                href="#menu"
+                class="inline-block p-2 w-full md:w-auto md:ms-4 md:p-3 hover:text-secondaryColor"
+                >menu</a
+              >
+            </li>
+            <li>
+              <a
+                href="#review"
+                class="inline-block p-2 w-full md:w-auto md:ms-4 md:p-3 hover:text-secondaryColor"
+                >review</a
+              >
+            </li>
+            <li>
+              <a
+                href="#newsletter"
+                class="inline-block p-2 w-full md:w-auto md:ms-4 md:p-3 hover:text-secondaryColor"
+                >newsletter</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <i class="drop-icon fa-solid fa-bars md:hidden cursor-pointer"></i>
+      </div>
+    </header>
+    <section class="home landing mt-2" id="home">
+      <div
+        class="container max-w-6xl flex flex-col md:items-center md:flex-row"
+      >
+        <div class="md:w-2/5">
+          <img
+            src="images/landing.png"
+            class="w-64 mx-auto md:w-auto animate-bounceSlow"
+            alt=""
+          />
+        </div>
+        <div class="md:w-3/5 text-center md:text-left">
+          <h1
+            class="uppercase font-oswald font-bold text-2xl p-4 md:text-6xl relative md:after:absolute md:after:content-[''] md:after:w-24 md:after:h-1 md:after:bg-secondaryColor md:after:bottom-0 md:after:left-5"
+          >
+            happy tummy with tasty burgers.
+          </h1>
+          <p class="p-4 text-paragraphColor">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae,
+            rem maiores? Eveniet ad quam nam reiciendis vero molestiae, eius
+            maxime eum odit consequatur! Quisquam, praesentium. Nisi ab odio
+            asperiores aperiam.
+          </p>
+          <div
+            class="flex gap-11 md:gap-20 text-center md:p-4 justify-center md:justify-start"
+          >
+            <div>
+              <i
+                class="fa-solid fa-utensils text-4xl mb-3 text-secondaryColor"
+              ></i>
+              <p class="capitalize">delicious</p>
+            </div>
+            <div>
+              <i
+                class="fa-solid fa-droplet text-4xl mb-3 text-secondaryColor"
+              ></i>
+              <p class="capitalize">fresh</p>
+            </div>
+            <div>
+              <i
+                class="fa-brands fa-envira text-4xl mb-3 text-secondaryColor"
+              ></i>
+              <p class="capitalize">organic</p>
+            </div>
+          </div>
+          <a
+            href="#"
+            class="px-5 py-3 inline-block my-5 rounded-md bg-secondaryColor hover:bg-secondaryColorhover text-black capitalize"
+            >learn more</a
+          >
+        </div>
+      </div>
+    </section>
+    <section class="welcome pt-10 md:pt-5">
+      <div class="container max-w-6xl">
+        <div class="flex flex-col md:flex-row gap-5 justify-between">
+          <div
+            class="bg-greenColor rounded-xl grid grid-cols-3 overflow-hidden"
+          >
+            <div class="col-span-1 relative">
+              <img
+                src="images/burger.png"
+                class="absolute mt-4 md:-bottom-3 md:-start-4 w-28"
+                alt=""
+              />
+            </div>
+            <div class="col-span-2 p-4">
+              <h3 class="font-oswald uppercase font-bold text-2xl">burger</h3>
+              <p class="text-sm">Lorem ipsum dolor sit amet.</p>
+              <a href="#" class="capitalize text-white font-bold font-sm"
+                >buy online</a
+              >
+            </div>
+          </div>
+          <div
+            class="bg-secondaryColor rounded-xl grid grid-cols-3 overflow-hidden"
+          >
+            <div class="col-span-1 relative">
+              <img
+                src="images/sweet.png"
+                class="absolute mt-4 md:-bottom-3 md:-start-4 w-28"
+                alt=""
+              />
+            </div>
+            <div class="col-span-2 p-4">
+              <h3 class="font-oswald uppercase font-bold text-2xl">sweet</h3>
+              <p class="text-sm">Lorem ipsum dolor sit amet.</p>
+              <a href="#" class="capitalize text-white font-bold font-sm"
+                >buy online</a
+              >
+            </div>
+          </div>
+          <div class="bg-redColor rounded-xl grid grid-cols-3 overflow-hidden">
+            <div class="col-span-1 relative">
+              <img
+                src="images/pizza.png"
+                class="absolute mt-4 md:-bottom-3 md:-start-4 w-28"
+                alt=""
+              />
+            </div>
+            <div class="col-span-2 p-4">
+              <h3 class="font-oswald uppercase font-bold text-2xl">pizza</h3>
+              <p class="text-sm">Lorem ipsum dolor sit amet.</p>
+              <a href="#" class="capitalize text-white font-bold font-sm"
+                >buy online</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="offers mt-16 md:flex md:justify-between gap-8">
+          <div
+            class="flex items-center my-8 md:w-1/2 bg-darkColorLight p-3 rounded-md"
+          >
+            <div class="flex-1">
+              <p class="text-secondaryColor text-sm capitalize">payday promo</p>
+              <h2 class="uppercase font-oswald font-bold text-lg py-2">
+                get a 10% discount on payday week
+              </h2>
+              <p class="text-paragraphColor text-sm">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              </p>
+              <a
+                href="#"
+                class="text-secondaryColor capitalize inline-block mt-2"
+                >buy now</a
+              >
+            </div>
+            <div class="flex-1">
+              <img
+                src="images/pizza_of.png"
+                alt=""
+                class="hover:animate-bounceSlow"
+              />
+            </div>
+          </div>
+          <div
+            class="flex items-center my-8 md:w-1/2 bg-darkColorLight p-3 rounded-md"
+          >
+            <div class="flex-1">
+              <p class="text-secondaryColor text-sm capitalize">payday promo</p>
+              <h2 class="uppercase font-oswald font-bold text-lg py-2">
+                get a 10% discount on payday week
+              </h2>
+              <p class="text-paragraphColor text-sm">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              </p>
+              <a
+                href="#"
+                class="text-secondaryColor capitalize inline-block mt-2"
+                >buy now</a
+              >
+            </div>
+            <div class="flex-1">
+              <img
+                src="images/burger_of.png"
+                alt=""
+                class="hover:animate-bounceSlow"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about-us sc py-10 md:pt-20" id="about-us">
+      <div class="container max-w-6xl">
+        <div class="text-center mb-14 md:mb-20 md:w-1/2 mx-auto">
+          <h2
+            class="font-oswald uppercase font-bold text-5xl pb-5 relative after:absolute after:content-[''] after:w-20 after:h-0.5 after:bg-secondaryColor after:bottom-0 after:inset-x-1/2 after:-translate-x-2/4"
+          >
+            about us
+          </h2>
+          <p class="mt-5 text-paragraphColor">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+            dignissimos aperiam consectetur cupiditate, adipisci cumque id
+            ratione rem blanditiis deleniti.
+          </p>
+        </div>
+        <div class="flex flex-col md:items-center md:flex-row">
+          <div class="md:w-2/5">
+            <img
+              src="images/about-us.jpg"
+              class="mx-auto rounded-lg width-full"
+              alt=""
+            />
+          </div>
+          <div class="md:w-3/5 text-left md:ms-5">
+            <h1
+              class="uppercase font-oswald font-bold text-2xl p-4 md:text-4xl relative md:after:absolute md:after:content-[''] md:after:w-24 md:after:h-1 md:after:bg-secondaryColor md:after:bottom-0 md:after:left-5"
+            >
+              happy tummy with tasty burgers.
+            </h1>
+            <p class="p-4 text-paragraphColor">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Recusandae, rem maiores? Eveniet ad quam nam reiciendis vero
+              molestiae, eius maxime eum odit consequatur! Quisquam,
+              praesentium. Nisi ab odio asperiores aperiam.
+            </p>
+            <div
+              class="flex flex-col text-left justify-center px-4 md:gap-20 md:flex-row md:justify-start"
+            >
+              <div>
+                <div>
+                  <i class="fa-solid fa-check text-secondaryColor me-2"></i>
+                  <span class="capitalize text-sm">best price</span>
+                </div>
+                <div>
+                  <i class="fa-solid fa-check text-secondaryColor me-2"></i>
+                  <span class="capitalize text-sm">best service</span>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <i class="fa-solid fa-check text-secondaryColor me-2"></i>
+                  <span class="capitalize text-sm">fresh ingredient</span>
+                </div>
+                <div>
+                  <i class="fa-solid fa-check text-secondaryColor me-2"></i>
+                  <span class="capitalize text-sm">health protocol</span>
+                </div>
+              </div>
+            </div>
+            <a
+              href="#"
+              class="ms-3 px-5 py-3 inline-block mt-3 rounded-md bg-secondaryColor hover:bg-secondaryColorhover text-black capitalize"
+              >learn more</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="menu sc min-h-screen py-10 md:pt-20" id="menu">
+      <div class="container max-w-6xl">
+        <div class="text-center mb-14 md:mb-20 md:w-1/2 mx-auto">
+          <h2
+            class="font-oswald uppercase font-bold text-5xl pb-5 relative after:absolute after:content-[''] after:w-20 after:h-0.5 after:bg-secondaryColor after:bottom-0 after:inset-x-1/2 after:-translate-x-2/4"
+          >
+            our menu
+          </h2>
+          <p class="mt-5 text-paragraphColor">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+            dignissimos aperiam consectetur cupiditate, adipisci cumque id
+            ratione rem blanditiis deleniti.
+          </p>
+          <ul class="mt-10 flex gap-2 justify-center flex-wrap">
+            <li
+              class="capitalize py-2 px-5 bg-darkColorLight active rounded-md cursor-pointer transition-all duration-300"
+            >
+              all
+            </li>
+            <li
+              class="capitalize py-2 px-5 bg-darkColorLight rounded-md cursor-pointer transition-all duration-300"
+            >
+              burger
+            </li>
+            <li
+              class="capitalize py-2 px-5 bg-darkColorLight rounded-md cursor-pointer transition-all duration-300"
+            >
+              pizza
+            </li>
+            <li
+              class="capitalize py-2 px-5 bg-darkColorLight rounded-md cursor-pointer transition-all duration-300"
+            >
+              sweet
+            </li>
+          </ul>
+        </div>
+        <div
+          class="menu-content grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-7"
+        >
+          <div data-menu="burger">
+            <div
+              class="h-52 w-full bg-darkColorLight transition-colors duration-300 hover:bg-secondaryColor flex justify-center items-center rounded-lg"
+            >
+              <img
+                src="images/m1.png"
+                class="w-2/5 transition-transform duration-300 hover:scale-110"
+                alt=""
+              />
+            </div>
+            <div class="mt-5">
+              <h2 class="uppercase font-oswald font-bold text-xl">
+                regular beef burger
+              </h2>
+              <p class="text-paragraphColor text-sm my-3">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Aperiam, eos.
+              </p>
+              <p class="text-secondaryColor font-bold">$42.00</p>
+            </div>
+          </div>
+          <div data-menu="burger">
+            <div
+              class="h-52 w-full bg-darkColorLight transition-colors duration-300 hover:bg-secondaryColor flex justify-center items-center rounded-lg"
+            >
+              <img
+                src="images/m2.png"
+                class="w-2/5 transition-transform duration-300 hover:scale-110"
+                alt=""
+              />
+            </div>
+            <div class="mt-5">
+              <h2 class="uppercase font-oswald font-bold text-xl">
+                regular beef burger
+              </h2>
+              <p class="text-paragraphColor text-sm my-3">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Aperiam, eos.
+              </p>
+              <p class="text-secondaryColor font-bold">$42.00</p>
+            </div>
+          </div>
+          <div data-menu="burger">
+            <div
+              class="h-52 w-full bg-darkColorLight transition-colors duration-300 hover:bg-secondaryColor flex justify-center items-center rounded-lg"
+            >
+              <img
+                src="images/m3.png"
+                class="w-2/5 transition-transform duration-300 hover:scale-110"
+                alt=""
+              />
+            </div>
+            <div class="mt-5">
+              <h2 class="uppercase font-oswald font-bold text-xl">
+                regular beef burger
+              </h2>
+              <p class="text-paragraphColor text-sm my-3">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Aperiam, eos.
+              </p>
+              <p class="text-secondaryColor font-bold">$42.00</p>
+            </div>
+          </div>
+          <div data-menu="burger">
+            <div
+              class="h-52 w-full bg-darkColorLight transition-colors duration-300 hover:bg-secondaryColor flex justify-center items-center rounded-lg"
+            >
+              <img
+                src="images/m4.png"
+                class="w-2/5 transition-transform duration-300 hover:scale-110"
+                alt=""
+              />
+            </div>
+            <div class="mt-5">
+              <h2 class="uppercase font-oswald font-bold text-xl">
+                regular beef burger
+              </h2>
+              <p class="text-paragraphColor text-sm my-3">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Aperiam, eos.
+              </p>
+              <p class="text-secondaryColor font-bold">$42.00</p>
+            </div>
+          </div>
+          <div data-menu="burger">
+            <div
+              class="h-52 w-full bg-darkColorLight transition-colors duration-300 hover:bg-secondaryColor flex justify-center items-center rounded-lg"
+            >
+              <img
+                src="images/m5.png"
+                class="w-2/5 transition-transform duration-300 hover:scale-110"
+                alt=""
+              />
+            </div>
+            <div class="mt-5">
+              <h2 class="uppercase font-oswald font-bold text-xl">
+                regular beef burger
+              </h2>
+              <p class="text-paragraphColor text-sm my-3">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Aperiam, eos.
+              </p>
+              <p class="text-secondaryColor font-bold">$42.00</p>
+            </div>
+          </div>
+          <div data-menu="burger">
+            <div
+              class="h-52 w-full bg-darkColorLight transition-colors duration-300 hover:bg-secondaryColor flex justify-center items-center rounded-lg"
+            >
+              <img
+                src="images/m6.png"
+                class="w-2/5 transition-transform duration-300 hover:scale-110"
+                alt=""
+              />
+            </div>
+            <div class="mt-5">
+              <h2 class="uppercase font-oswald font-bold text-xl">
+                regular beef burger
+              </h2>
+              <p class="text-paragraphColor text-sm my-3">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Aperiam, eos.
+              </p>
+              <p class="text-secondaryColor font-bold">$42.00</p>
+            </div>
+          </div>
+          <div data-menu="burger">
+            <div
+              class="h-52 w-full bg-darkColorLight transition-colors duration-300 hover:bg-secondaryColor flex justify-center items-center rounded-lg"
+            >
+              <img
+                src="images/m7.png"
+                class="w-2/5 transition-transform duration-300 hover:scale-110"
+                alt=""
+              />
+            </div>
+            <div class="mt-5">
+              <h2 class="uppercase font-oswald font-bold text-xl">
+                regular beef burger
+              </h2>
+              <p class="text-paragraphColor text-sm my-3">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Aperiam, eos.
+              </p>
+              <p class="text-secondaryColor font-bold">$42.00</p>
+            </div>
+          </div>
+          <div data-menu="burger">
+            <div
+              class="h-52 w-full bg-darkColorLight transition-colors duration-300 hover:bg-secondaryColor flex justify-center items-center rounded-lg"
+            >
+              <img
+                src="images/m8.png"
+                class="w-2/5 transition-transform duration-300 hover:scale-110"
+                alt=""
+              />
+            </div>
+            <div class="mt-5">
+              <h2 class="uppercase font-oswald font-bold text-xl">
+                regular beef burger
+              </h2>
+              <p class="text-paragraphColor text-sm my-3">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Aperiam, eos.
+              </p>
+              <p class="text-secondaryColor font-bold">$42.00</p>
+            </div>
+          </div>
+          <div data-menu="burger">
+            <div
+              class="h-52 w-full bg-darkColorLight transition-colors duration-300 hover:bg-secondaryColor flex justify-center items-center rounded-lg"
+            >
+              <img
+                src="images/m9.png"
+                class="w-2/5 transition-transform duration-300 hover:scale-110"
+                alt=""
+              />
+            </div>
+            <div class="mt-5">
+              <h2 class="uppercase font-oswald font-bold text-xl">
+                regular beef burger
+              </h2>
+              <p class="text-paragraphColor text-sm my-3">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Aperiam, eos.
+              </p>
+              <p class="text-secondaryColor font-bold">$42.00</p>
+            </div>
+          </div>
+          <div data-menu="burger">
+            <div
+              class="h-52 w-full bg-darkColorLight transition-colors duration-300 hover:bg-secondaryColor flex justify-center items-center rounded-lg"
+            >
+              <img
+                src="images/m10.png"
+                class="w-2/5 transition-transform duration-300 hover:scale-110"
+                alt=""
+              />
+            </div>
+            <div class="mt-5">
+              <h2 class="uppercase font-oswald font-bold text-xl">
+                regular beef burger
+              </h2>
+              <p class="text-paragraphColor text-sm my-3">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Aperiam, eos.
+              </p>
+              <p class="text-secondaryColor font-bold">$42.00</p>
+            </div>
+          </div>
+          <div data-menu="pizza">
+            <div
+              class="h-52 w-full bg-darkColorLight transition-colors duration-300 hover:bg-secondaryColor flex justify-center items-center rounded-lg"
+            >
+              <img
+                src="images/m11.png"
+                class="w-2/5 transition-transform duration-300 hover:scale-110"
+                alt=""
+              />
+            </div>
+            <div class="mt-5">
+              <h2 class="uppercase font-oswald font-bold text-xl">
+                pizza italiano
+              </h2>
+              <p class="text-paragraphColor text-sm my-3">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Aperiam, eos.
+              </p>
+              <p class="text-secondaryColor font-bold">$42.00</p>
+            </div>
+          </div>
+          <div data-menu="pizza">
+            <div
+              class="h-52 w-full bg-darkColorLight transition-colors duration-300 hover:bg-secondaryColor flex justify-center items-center rounded-lg"
+            >
+              <img
+                src="images/m12.png"
+                class="w-2/5 transition-transform duration-300 hover:scale-110"
+                alt=""
+              />
+            </div>
+            <div class="mt-5">
+              <h2 class="uppercase font-oswald font-bold text-xl">
+                pizza italiano
+              </h2>
+              <p class="text-paragraphColor text-sm my-3">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Aperiam, eos.
+              </p>
+              <p class="text-secondaryColor font-bold">$42.00</p>
+            </div>
+          </div>
+          <div data-menu="pizza">
+            <div
+              class="h-52 w-full bg-darkColorLight transition-colors duration-300 hover:bg-secondaryColor flex justify-center items-center rounded-lg"
+            >
+              <img
+                src="images/m13.png"
+                class="w-2/5 transition-transform duration-300 hover:scale-110"
+                alt=""
+              />
+            </div>
+            <div class="mt-5">
+              <h2 class="uppercase font-oswald font-bold text-xl">
+                pizza italiano
+              </h2>
+              <p class="text-paragraphColor text-sm my-3">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Aperiam, eos.
+              </p>
+              <p class="text-secondaryColor font-bold">$42.00</p>
+            </div>
+          </div>
+          <div data-menu="pizza">
+            <div
+              class="h-52 w-full bg-darkColorLight transition-colors duration-300 hover:bg-secondaryColor flex justify-center items-center rounded-lg"
+            >
+              <img
+                src="images/m14.png"
+                class="w-2/5 transition-transform duration-300 hover:scale-110"
+                alt=""
+              />
+            </div>
+            <div class="mt-5">
+              <h2 class="uppercase font-oswald font-bold text-xl">
+                pizza italiano
+              </h2>
+              <p class="text-paragraphColor text-sm my-3">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Aperiam, eos.
+              </p>
+              <p class="text-secondaryColor font-bold">$42.00</p>
+            </div>
+          </div>
+          <div data-menu="sweet">
+            <div
+              class="h-52 w-full bg-darkColorLight transition-colors duration-300 hover:bg-secondaryColor flex justify-center items-center rounded-lg"
+            >
+              <img
+                src="images/m22.png"
+                class="w-2/5 transition-transform duration-300 hover:scale-110"
+                alt=""
+              />
+            </div>
+            <div class="mt-5">
+              <h2 class="uppercase font-oswald font-bold text-xl">donut</h2>
+              <p class="text-paragraphColor text-sm my-3">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Aperiam, eos.
+              </p>
+              <p class="text-secondaryColor font-bold">$42.00</p>
+            </div>
+          </div>
+          <div data-menu="sweet">
+            <div
+              class="h-52 w-full bg-darkColorLight transition-colors duration-300 hover:bg-secondaryColor flex justify-center items-center rounded-lg"
+            >
+              <img
+                src="images/m23.png"
+                class="w-2/5 transition-transform duration-300 hover:scale-110"
+                alt=""
+              />
+            </div>
+            <div class="mt-5">
+              <h2 class="uppercase font-oswald font-bold text-xl">donut</h2>
+              <p class="text-paragraphColor text-sm my-3">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Aperiam, eos.
+              </p>
+              <p class="text-secondaryColor font-bold">$42.00</p>
+            </div>
+          </div>
+          <div data-menu="sweet">
+            <div
+              class="h-52 w-full bg-darkColorLight transition-colors duration-300 hover:bg-secondaryColor flex justify-center items-center rounded-lg"
+            >
+              <img
+                src="images/m24.png"
+                class="w-2/5 transition-transform duration-300 hover:scale-110"
+                alt=""
+              />
+            </div>
+            <div class="mt-5">
+              <h2 class="uppercase font-oswald font-bold text-xl">donut</h2>
+              <p class="text-paragraphColor text-sm my-3">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Aperiam, eos.
+              </p>
+              <p class="text-secondaryColor font-bold">$42.00</p>
+            </div>
+          </div>
+          <div data-menu="sweet">
+            <div
+              class="h-52 w-full bg-darkColorLight transition-colors duration-300 hover:bg-secondaryColor flex justify-center items-center rounded-lg"
+            >
+              <img
+                src="images/m15.png"
+                class="w-2/5 transition-transform duration-300 hover:scale-110"
+                alt=""
+              />
+            </div>
+            <div class="mt-5">
+              <h2 class="uppercase font-oswald font-bold text-xl">fruit pie</h2>
+              <p class="text-paragraphColor text-sm my-3">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Aperiam, eos.
+              </p>
+              <p class="text-secondaryColor font-bold">$42.00</p>
+            </div>
+          </div>
+          <div data-menu="sweet">
+            <div
+              class="h-52 w-full bg-darkColorLight transition-colors duration-300 hover:bg-secondaryColor flex justify-center items-center rounded-lg"
+            >
+              <img
+                src="images/m16.png"
+                class="w-2/5 transition-transform duration-300 hover:scale-110"
+                alt=""
+              />
+            </div>
+            <div class="mt-5">
+              <h2 class="uppercase font-oswald font-bold text-xl">fruit pie</h2>
+              <p class="text-paragraphColor text-sm my-3">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Aperiam, eos.
+              </p>
+              <p class="text-secondaryColor font-bold">$42.00</p>
+            </div>
+          </div>
+          <div data-menu="sweet">
+            <div
+              class="h-52 w-full bg-darkColorLight transition-colors duration-300 hover:bg-secondaryColor flex justify-center items-center rounded-lg"
+            >
+              <img
+                src="images/m17.png"
+                class="w-2/5 transition-transform duration-300 hover:scale-110"
+                alt=""
+              />
+            </div>
+            <div class="mt-5">
+              <h2 class="uppercase font-oswald font-bold text-xl">pancake</h2>
+              <p class="text-paragraphColor text-sm my-3">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Aperiam, eos.
+              </p>
+              <p class="text-secondaryColor font-bold">$42.00</p>
+            </div>
+          </div>
+          <div data-menu="sweet">
+            <div
+              class="h-52 w-full bg-darkColorLight transition-colors duration-300 hover:bg-secondaryColor flex justify-center items-center rounded-lg"
+            >
+              <img
+                src="images/m18.png"
+                class="w-2/5 transition-transform duration-300 hover:scale-110"
+                alt=""
+              />
+            </div>
+            <div class="mt-5">
+              <h2 class="uppercase font-oswald font-bold text-xl">pancake</h2>
+              <p class="text-paragraphColor text-sm my-3">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Aperiam, eos.
+              </p>
+              <p class="text-secondaryColor font-bold">$42.00</p>
+            </div>
+          </div>
+          <div data-menu="sweet">
+            <div
+              class="h-52 w-full bg-darkColorLight transition-colors duration-300 hover:bg-secondaryColor flex justify-center items-center rounded-lg"
+            >
+              <img
+                src="images/m19.png"
+                class="w-2/5 transition-transform duration-300 hover:scale-110"
+                alt=""
+              />
+            </div>
+            <div class="mt-5">
+              <h2 class="uppercase font-oswald font-bold text-xl">pancake</h2>
+              <p class="text-paragraphColor text-sm my-3">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Aperiam, eos.
+              </p>
+              <p class="text-secondaryColor font-bold">$42.00</p>
+            </div>
+          </div>
+          <div data-menu="sweet">
+            <div
+              class="h-52 w-full bg-darkColorLight transition-colors duration-300 hover:bg-secondaryColor flex justify-center items-center rounded-lg"
+            >
+              <img
+                src="images/m20.png"
+                class="w-2/5 transition-transform duration-300 hover:scale-110"
+                alt=""
+              />
+            </div>
+            <div class="mt-5">
+              <h2 class="uppercase font-oswald font-bold text-xl">waffle</h2>
+              <p class="text-paragraphColor text-sm my-3">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Aperiam, eos.
+              </p>
+              <p class="text-secondaryColor font-bold">$42.00</p>
+            </div>
+          </div>
+          <div data-menu="sweet">
+            <div
+              class="h-52 w-full bg-darkColorLight transition-colors duration-300 hover:bg-secondaryColor flex justify-center items-center rounded-lg"
+            >
+              <img
+                src="images/m21.png"
+                class="w-2/5 transition-transform duration-300 hover:scale-110"
+                alt=""
+              />
+            </div>
+            <div class="mt-5">
+              <h2 class="uppercase font-oswald font-bold text-xl">waffle</h2>
+              <p class="text-paragraphColor text-sm my-3">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Aperiam, eos.
+              </p>
+              <p class="text-secondaryColor font-bold">$42.00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="review sc min-h-screen py-5 md:pt-20 md:pb-10" id="review">
+      <div class="container max-w-6xl">
+        <div class="text-center mb-14 md:mb-10 md:w-1/2 mx-auto">
+          <h2
+            class="font-oswald uppercase font-bold text-5xl pb-5 relative after:absolute after:content-[''] after:w-20 after:h-0.5 after:bg-secondaryColor after:bottom-0 after:inset-x-1/2 after:-translate-x-2/4"
+          >
+            customer review
+          </h2>
+          <p class="mt-5 text-paragraphColor">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+            dignissimos aperiam consectetur cupiditate, adipisci cumque id
+            ratione rem blanditiis deleniti.
+          </p>
+        </div>
+        <div
+          class="review-boxes grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
+        >
+          <div
+            class="p-3 bg-darkColorLight rounded-xl hover:animate-bounceSlow"
+          >
+            <p class="text-paragraphColor text-sm">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+              quae minima fuga accusantium nobis velit distinctio optio dicta
+              consequuntur.
+            </p>
+            <div class="flex justify-between items-center mt-5">
+              <div class="flex justify-start items-center">
+                <img
+                  src="images/profile1.jpg"
+                  class="rounded-full w-14"
+                  alt=""
+                />
+                <div class="ms-4">
+                  <h3 class="uppercase font-bold">john doe</h3>
+                  <p class="capitalize">designer</p>
+                </div>
+              </div>
+              <i
+                class="fa-solid fa-quote-right text-5xl text-secondaryColor"
+              ></i>
+            </div>
+          </div>
+          <div
+            class="p-3 bg-darkColorLight rounded-xl hover:animate-bounceSlow"
+          >
+            <p class="text-paragraphColor text-sm">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+              quae minima fuga accusantium nobis velit distinctio optio dicta
+              consequuntur.
+            </p>
+            <div class="flex justify-between items-center mt-5">
+              <div class="flex justify-start items-center">
+                <img
+                  src="images/profile2.jpg"
+                  class="rounded-full w-14"
+                  alt=""
+                />
+                <div class="ms-4">
+                  <h3 class="uppercase font-bold">john doe</h3>
+                  <p class="capitalize">designer</p>
+                </div>
+              </div>
+              <i
+                class="fa-solid fa-quote-right text-5xl text-secondaryColor"
+              ></i>
+            </div>
+          </div>
+          <div
+            class="p-3 bg-darkColorLight rounded-xl hover:animate-bounceSlow"
+          >
+            <p class="text-paragraphColor text-sm">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+              quae minima fuga accusantium nobis velit distinctio optio dicta
+              consequuntur.
+            </p>
+            <div class="flex justify-between items-center mt-5">
+              <div class="flex justify-start items-center">
+                <img
+                  src="images/profile3.jpg"
+                  class="rounded-full w-14"
+                  alt=""
+                />
+                <div class="ms-4">
+                  <h3 class="uppercase font-bold">john doe</h3>
+                  <p class="capitalize">designer</p>
+                </div>
+              </div>
+              <i
+                class="fa-solid fa-quote-right text-5xl text-secondaryColor"
+              ></i>
+            </div>
+          </div>
+          <div
+            class="p-3 bg-darkColorLight rounded-xl hover:animate-bounceSlow"
+          >
+            <p class="text-paragraphColor text-sm">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+              quae minima fuga accusantium nobis velit distinctio optio dicta
+              consequuntur.
+            </p>
+            <div class="flex justify-between items-center mt-5">
+              <div class="flex justify-start items-center">
+                <img
+                  src="images/profile4.png"
+                  class="rounded-full w-14"
+                  alt=""
+                />
+                <div class="ms-4">
+                  <h3 class="uppercase font-bold">john doe</h3>
+                  <p class="capitalize">designer</p>
+                </div>
+              </div>
+              <i
+                class="fa-solid fa-quote-right text-5xl text-secondaryColor"
+              ></i>
+            </div>
+          </div>
+          <div
+            class="p-3 bg-darkColorLight rounded-xl hover:animate-bounceSlow"
+          >
+            <p class="text-paragraphColor text-sm">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+              quae minima fuga accusantium nobis velit distinctio optio dicta
+              consequuntur.
+            </p>
+            <div class="flex justify-between items-center mt-5">
+              <div class="flex justify-start items-center">
+                <img
+                  src="images/profile5.jpg"
+                  class="rounded-full w-14"
+                  alt=""
+                />
+                <div class="ms-4">
+                  <h3 class="uppercase font-bold">john doe</h3>
+                  <p class="capitalize">designer</p>
+                </div>
+              </div>
+              <i
+                class="fa-solid fa-quote-right text-5xl text-secondaryColor"
+              ></i>
+            </div>
+          </div>
+          <div
+            class="p-3 bg-darkColorLight rounded-xl hover:animate-bounceSlow"
+          >
+            <p class="text-paragraphColor text-sm">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+              quae minima fuga accusantium nobis velit distinctio optio dicta
+              consequuntur.
+            </p>
+            <div class="flex justify-between items-center mt-5">
+              <div class="flex justify-start items-center">
+                <img
+                  src="images/profile6.png"
+                  class="rounded-full w-14"
+                  alt=""
+                />
+                <div class="ms-4">
+                  <h3 class="uppercase font-bold">john doe</h3>
+                  <p class="capitalize">designer</p>
+                </div>
+              </div>
+              <i
+                class="fa-solid fa-quote-right text-5xl text-secondaryColor"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="newsletter sc bg-secondaryColor" id="newsletter">
+      <div class="container max-w-6xl py-20">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+          <div class="text-black">
+            <h2 class="uppercase font-oswald text-4xl font-bold">
+              get exclusive update
+            </h2>
+            <p class="mt-3">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam,
+              tempora.
+            </p>
+          </div>
+          <div>
+            <form
+              action=""
+              class="flex justify-between items-center gap-5 flex-wrap"
+            >
+              <input
+                class="flex-1 p-3 rounded-xl placeholder:capitalize"
+                type="text"
+                name="email"
+                placeholder="email address"
+              />
+              <div class="p-3 bg-darkColor rounded-xl">
+                <i class="fa-solid fa-paper-plane"></i>
+                <input
+                  type="submit"
+                  value="subscribe"
+                  class="cursor-pointer capitalize"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer">
+      <div class="container max-w-6xl pt-20">
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-7 pb-5 border-b-2 border-secondaryColor"
+        >
+          <div>
+            <a href="#" class="uppercase inline-block mb-4 text-2xl font-oswald"
+              >bur<span class="text-secondaryColor">ger</span>
+            </a>
+            <p class="text-paragraphColor text-sm">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+              corrupti impedit deleniti aliquam minus magnam harum quasi modi
+              qui architecto.
+            </p>
+          </div>
+          <div>
+            <h3 class="uppercase font-oswald font-bold mb-3">support</h3>
+            <ul class="text-sm text-paragraphColor">
+              <li><a href="" class="inline-block pb-3">FAQ's</a></li>
+              <li>
+                <a href="" class="inline-block pb-3 capitalize"
+                  >privacy policy</a
+                >
+              </li>
+              <li>
+                <a href="" class="inline-block pb-3 capitalize"
+                  >term & condition</a
+                >
+              </li>
+              <li>
+                <a href="" class="inline-block pb-3 capitalize">contact</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <div>
+              <h3 class="uppercase font-oswald font-bold mb-3">phone</h3>
+              <i
+                class="fa-solid fa-phone-volume text-secondaryColor text-sm"
+              ></i>
+              <span class="text-paragraphColor text-sm ms-3"
+                >+1 000 000 0000</span
+              >
+            </div>
+            <div class="mt-4">
+              <h3 class="uppercase font-oswald font-bold mb-3">email</h3>
+              <i class="fa-solid fa-envelope text-secondaryColor text-sm"></i>
+              <span class="text-paragraphColor text-sm ms-3"
+                >info@burger.com</span
+              >
+            </div>
+          </div>
+          <div>
+            <div>
+              <h3 class="uppercase font-oswald font-bold mb-3">address</h3>
+              <i
+                class="fa-solid fa-location-dot text-secondaryColor text-sm"
+              ></i>
+              <span class="text-paragraphColor text-sm ms-3 capitalize"
+                >address here</span
+              >
+            </div>
+            <div class="mt-4">
+              <h3 class="uppercase font-oswald font-bold mb-3">follow us</h3>
+              <a href=""
+                ><i class="fa-brands fa-facebook-f text-secondaryColor"></i
+              ></a>
+              <a href=""
+                ><i class="fa-brands fa-x-twitter text-secondaryColor ms-2"></i
+              ></a>
+              <a href=""
+                ><i class="fa-brands fa-instagram text-secondaryColor ms-2"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-between items-center mt-5 mb-10 flex-wrap">
+          <p class="text-paragraphColor text-sm capitalize py-2">
+            burger template Kit by <span>safouane meniaoui</span>
+          </p>
+          <p class="text-paragraphColor text-sm capitalize py-2">
+            Copyright © 2023. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </section>
+    <div
+      class="bullets fixed -right-4 inset-y-1/2 -translate-y-2/4 transition-all duration-300"
+    ></div>
+    <div
+      class="go-top bg-secondaryColor p-5 rounded-full w-5 h-5 flex justify-center items-center fixed -right-10 bottom-3 cursor-pointer transition-all duration-300"
+    >
+      <i class="fa-solid fa-arrow-up text-black"></i>
+    </div>
+    <script src="master.js"></script>
+  </body>
+</html>

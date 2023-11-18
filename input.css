@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800&family=Nunito:wght@300;400;500;600;700;800&family=Oswald:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+  body {
+    @apply font-dmsans text-white bg-black;
+    overflow-x: hidden;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+nav .active {
+  color: #ffcc00;
+}
+.drop-down {
+  top: 3rem;
+}
+.landing .container {
+  min-height: calc(100vh - 56px) !important;
+}
+.menu ul li.active,
+.menu ul li:hover {
+  background-color: #ffcc00 !important;
+  color: black !important;
+}
+.menu-content > div.active {
+  display: block !important;
+}
+.menu-content > div.disable {
+  display: none !important;
+}
+.go-top.show {
+  right: 1rem;
+}
+/*Start bullets*/
+.bullets.show {
+  right: 30px;
+}
+.bullets.disable {
+  display: none !important;
+}
+.bullets ul {
+  padding: 0;
+  width: fit-content;
+  margin-left: 8px;
+}
+.bullets ul li a {
+  width: 15px;
+  height: 15px;
+  display: block;
+  border: 2px solid #ffcc00;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  position: relative;
+  cursor: pointer;
+}
+.bullets ul li a:hover::before {
+  content: attr(data-section);
+  position: absolute;
+  width: 100px;
+  top: 50%;
+  right: 25px;
+  transform: translateY(-50%);
+  background-color: #ffcc00;
+  color: rgb(0, 0, 0);
+  padding: 5px 10px 2px;
+  text-transform: capitalize;
+}
+.bullets ul li a:hover::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  border-width: 5px;
+  border-style: solid;
+  transform: translateY(-50%);
+  border-color: transparent transparent transparent #ffcc00;
+}
+.bullets ul li a.active {
+  background-color: #ffcc00;
+}
+/*End bullets*/
